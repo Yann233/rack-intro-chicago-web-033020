@@ -9,7 +9,7 @@ class MyServer
  
   def pretty_response
   (Time.now.to_i % 2).zero? ?  ["<em>Yolo</em>"] : ["<strong>Yolo</strong>"]
- #If the present/current time, as an Integer, is even
+ # If the present/current time, as an Integer, is even
  # T => the output is emphatic (em)
  # F => the output is strong
   end
